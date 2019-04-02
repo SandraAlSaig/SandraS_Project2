@@ -13,6 +13,9 @@
 body {
   background-color: #e0e0e0;
   font-family: 'ZCOOL XiaoWei', serif;
+  max-width: 1800px;
+  text-align: center;
+  margin: auto;
 }
 
 h1,h2 {
@@ -156,6 +159,7 @@ hr {
     float: right;
     padding-top: 20px;
     padding-bottom: 20px;
+    list-style-type: none;
   }
 
   .main-footer {
@@ -198,6 +202,9 @@ hr {
   font-size: 1.2em;
 }
 /* ============================ Profile Div ================================ */
+  p{
+    font-size: 1.0em;
+  }
 
   picture {
     float: right;
@@ -206,9 +213,11 @@ hr {
 
   #description {
     margin-top: 2em;
-
+    font-size: 1.2em;
   }
+
 /* ===========================Portfolio Div ================================ */
+
   .portfolio-container {
 
   }
@@ -294,6 +303,11 @@ hr {
   font-size: 1.2em;
 }
 /* ============================ Profile Div ================================ */
+
+  p{
+    font-size: 1.2em;
+  }
+
   .student{
     margin-top: -2.5em;
     height: 170px;
@@ -307,6 +321,7 @@ hr {
   #description {
     margin-top: 2em;
     max-width: 70%;
+    font-size: 1.2em;
   }
 /* ===========================Portfolio Div ================================ */
   .portfolio-container {
@@ -354,6 +369,12 @@ hr {
 
 @media (min-width : 1800px){
   /* ============================ Profile Div ================================ */
+
+    .main-nav li {
+      text-align: right;
+    }
+
+
     .student{
       margin-top: -1.7em;
       height: 140px;
