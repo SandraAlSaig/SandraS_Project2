@@ -13,9 +13,8 @@
 body {
   background-color: #e0e0e0;
   font-family: 'ZCOOL XiaoWei', serif;
-  max-width: 1800px;
   text-align: center;
-  margin: auto;
+  margin: 0;
 }
 
 h1,h2 {
@@ -202,6 +201,11 @@ hr {
   font-size: 1.2em;
 }
 /* ============================ Profile Div ================================ */
+
+  .profile-image {
+    max-width: 930px;
+  }
+
   p{
     font-size: 1.0em;
   }
@@ -219,7 +223,7 @@ hr {
 /* ===========================Portfolio Div ================================ */
 
   .portfolio-container {
-
+    max-width: 930px;
   }
   .market {
     float: left;
@@ -252,6 +256,15 @@ hr {
   }
 
   /* ===========================Skills Div ============================== */
+  .skill-container {
+    max-width: 930px;
+  }
+
+  /* ========================== Contact Div ============================== */
+
+  .contact-container {
+    max-width: 930px;
+  }
 
 
 /* ========================== Footer Navbar ================================ */
@@ -304,6 +317,10 @@ hr {
 }
 /* ============================ Profile Div ================================ */
 
+  .profile-image {
+    max-width: 1200px;
+  }
+
   p{
     font-size: 1.2em;
   }
@@ -321,12 +338,12 @@ hr {
   #description {
     margin-top: 2em;
     max-width: 70%;
-    font-size: 1.2em;
+
   }
 /* ===========================Portfolio Div ================================ */
   .portfolio-container {
     margin: auto;
-    width: 90%;
+    max-width: 1200px;
     text-align: center;
   }
   .market,
@@ -344,6 +361,22 @@ hr {
     display: table;
     clear: both;
   }
+
+/* ============================ Skills Div ================================ */
+
+  .skill-container {
+    max-width: 1200px;
+  }
+
+/* ============================ Contact Div ================================ */
+
+  .contact-container {
+    max-width: 1200px;
+  }
+
+
+
+
 /* ========================== Footer Navbar ================================ */
   .mobile-nav {
     display: none;
